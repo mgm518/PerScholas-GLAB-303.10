@@ -1,6 +1,7 @@
 package com.perscholas.lesson30310;
 
 import com.perscholas.lesson30310.abstraction.HackerRank;
+import com.perscholas.lesson30310.interfaces.LibraryInterfaceDemo;
 import com.perscholas.lesson30310.polymorphism.TestMonster;
 
 public class Runner {
@@ -17,5 +18,11 @@ public class Runner {
         PA 303.10.2 - Abstraction
         **************************************************""");
     new HackerRank("A tale of two cities");
+    System.out.println();
+    System.out.println("""
+        **************************************************
+        PA 303.10.3 - Polymorphism and Interface
+        **************************************************""");
+    new LibraryInterfaceDemo();
   }
 }
